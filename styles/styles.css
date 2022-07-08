@@ -1,0 +1,174 @@
+body {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/6025a7830a7e9776b7f3be9d/1626224768186-YHHOR0RWZARHQJ9ONMUJ/GoatChocolateBrown.jpeg?format=500w");
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 80px;
+  color: rgb(199, 150, 28);
+  background-color: rgb(82, 36, 5);
+  width: cover;
+  height: 100px;
+  padding: 2px 50px 0px 2px;
+}
+#pen {
+  width: 100%;
+  height: 500px;
+  opacity: 65%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav a {
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(199, 150, 28);
+  background-color: rgb(124, 94, 19);
+  margin: 0;
+  width: 27%;
+  height: 40px;
+  padding: 15px 25px;
+}
+
+#anchor1 {
+  color: silver;
+}
+
+nav a:hover {
+  background-color: rgb(94, 41, 5);
+  color: rgb(199, 150, 28);
+}
+
+.list {
+  text-align: left;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  color: rgb(199, 150, 28);
+}
+
+.paragraph {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  color: rgb(199, 150, 28);
+}
+
+.buttonStory {
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(199, 150, 28);
+  background-color: black;
+  margin: 0;
+  width: 33%;
+  height: 60px;
+  padding: 15px 25px;
+}
+#fullStory {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  width: 60%;
+  height: 1560px;
+  padding: 15px 25px;
+}
+.storyBox {
+  display: flex;
+  justify-content: center;
+}
+
+#bookCover {
+  height: 600px;
+  width: 60%;
+  padding: 10px 50px;
+}
+
+#booksDescriptions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  width: 100%;
+  color: rgb(199, 150, 28);
+  font-weight: 500;
+}
+.synopsis {
+  height: 400px;
+  width: 35%;
+  padding: 10px 50px;
+}
+.numericCode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  height: 230px;
+  width: 30%;
+  color: rgb(216, 163, 29);
+  background-color: black;
+  opacity: 60%;
+}
+
+#contactData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+}
+
+.ageCheck {
+  text-align: left;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  color: rgb(199, 150, 28);
+}
+
+#errorMessage {
+  text-align: left;
+  color: silver;
+  font-weight: 900;
+}
+
+#portrait {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  height: 650px;
+  width: 50%;
+}
+
+table {
+  font-size: 20px;
+  width: 600px;
+  height: 150px;
+  background-color: black;
+  opacity: 60%;
+}
+th {
+  background-color: rgb(199, 150, 28);
+  color: black;
+}
+
+td {
+  border-bottom: solid 1px;
+  text-align: center;
+  color: silver;
+}
